@@ -1,0 +1,14 @@
+/* Initia box model set up*/
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Section 1 is the base container of the first page*/
+
+.section-1{
+  margin-top: 0;
+  height: 100vh;
+}
