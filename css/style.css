@@ -542,6 +542,30 @@ form{
     margin-top: 50px;
 }
 
+/* footer*/
+footer{
+  margin: 0;
+}
+
+.copyrights{
+  text-align: center;
+  margin-top: 30px;
+  opacity: 0.5;
+}
+
+.handles{
+  margin-top: 20px;
+  text-align: center;
+}
+.handles span{
+  display: inline-block;
+  margin-left: 3px;
+}
+.handles span:hover{
+  color: rgb(113, 113, 224);
+}
+
+
 
 
 
