@@ -7,7 +7,7 @@
 
 /* Section 1 is the base container of the first page*/
 .name p{
-  font-family: "Poppins", sans-serif;
+  font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 .section-1{
@@ -194,7 +194,7 @@
 /* Styling for page 3*/
 .container-3{
   margin:0;
-  height: 150vh;
+  height: 180vh;
 }
 
 .header-1{
@@ -259,7 +259,6 @@ height: 150px;
 .info h3{
   display: inline-block;
   margin-left: 5px;
-  color: gray;
 }
 .info button{
   display: inline-block;
@@ -490,6 +489,12 @@ height: 150px;
 .logo-content{
   display: flex;
   margin-top: 50px;
+}
+.logo-content h3{
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+.logo-content span{
+  color: #F6B400;
 }
 
 .logo-content img{
