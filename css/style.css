@@ -85,10 +85,16 @@
   margin-left: 20px;
   height: 100vh;
 }
+
+.row{
+ align-content: center;
+}
+
 .column{
   width: 33.33%;
   float: left;
 }
+
 .row::after{
   clear: both;
   display: table;
@@ -98,7 +104,6 @@
   margin-left: 50px;
   margin-top: 25%;
 }
-
 
 .content-a h1{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -141,9 +146,7 @@
 
 .column-1{
   width: 33.33%;
-  margin-left: auto;
   float: left;
-  align-items: center;
 }
 
 .invisible-cards{
@@ -189,10 +192,6 @@
 /* Styling for page 3*/
 
 
-.container-3{
-
-}
-
 .header-1{
   text-align: center;
   margin-top: 120px;
@@ -221,9 +220,9 @@
 }
 
 .menu-container{
-  margin-left: auto;
-  padding: 15px 10px;
+  width: 100%;
   margin-top: 30px;
+  margin-left: 40px;
 }
 
 .menu-card{
@@ -231,15 +230,16 @@
   max-width: 320px;
   text-align: center;
   padding: 4px;
-  border-radius: 10px;
+  border-radius: 20px;
   margin-left: 20px;
-  position: absolute;
   overflow: hidden;
+  position: absolute;
 }
 
 .menu-card img{
 max-width: 100%;
 margin-top: 0px;
+height: 150px;
 }
 
 .menu-content{
@@ -253,8 +253,7 @@ margin-top: 0px;
 
 .info h3{
   display: inline-block;
-  margin-left: px;
-  background-color: whitesmoke;
+  margin-left: 5px;
   color: gray;
 }
 .info button{
@@ -266,8 +265,42 @@ margin-top: 0px;
  border-radius: 5px;
  padding: 2px;
  border: none;
+ background-color: #E1EBE6;
 
 }
+
+.info-b{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.info-b h3{
+  display: inline-block;
+ margin-right: 60px;
+}
+
+.info-b p{
+  display: inline-block;
+  background: rosybrown;
+  padding: 3px;
+  border-radius: 5px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.info-b span{
+  display: inline-block;
+  margin: 1px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.info-b span:hover{
+  background: seagreen;
+  color: azure;
+  cursor: progress;
+}
+
+
 
 /* designing the ribbon */
 
@@ -295,28 +328,64 @@ margin-top: 0px;
   max-width: 320px;
   text-align: center;
   padding: 4px;
-  border-radius: 10px;
+  border-radius: 20px;
   margin-left: 20px;
   overflow: hidden;
 }
 
 .menu-card-1 img{
   max-width: 100%;
-  margin-top: 0px;
+  height: 150px;
   }
 
+/* Page 4 styling*/
+
+.container-4{
+  height: 90vh;
+  margin: 0;
+  padding: 10px 15px;
+}
+.pg4-content{
+  margin-top: 30%;
+  margin-left: 200px;
+}
 
 
+.pg4-content p{
+  margin-top: 35px;
+  margin-left: 3px;
+  font-size: 15px;
+  opacity: 0.5;
+  font-weight: 200;
+  font-family: monospace;
+}
+.big-deker{
+  margin-top: 15px;
+  color: orange;
+}
+.arrow{
+  margin-top: 100px;
+  margin-left: 20px;
+}
+.arrow .dot{
+  display: inline-block;
+  width: 10px;
+  background-color: orangered;
+  border-radius: 1px solid black;
+  height: 10px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
 
-
-
-
-
-
-
-
-
-
+.arrow .dot-1{
+  display: inline-block;
+  width: 10px;
+  background-color: orangered;
+  border-radius: 1px solid black;
+  height: 10px;
+  border-radius: 20px;
+  margin-left: 10px; 
+}
 
 
 
