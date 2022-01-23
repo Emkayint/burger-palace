@@ -72,6 +72,10 @@
   margin-right: 60px;
   margin-top: 30px;
 }
+.cart a{
+  color: black;
+}
+
 .cart .icon{
   color: black;
   font-size: 30px;
