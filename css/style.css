@@ -13,7 +13,7 @@
 .section-1{
   margin-top: 0;
   height: 110vh;
-  background: linear-gradient(110deg, #ffffff 45%, #F6B400 45%);
+  background: linear-gradient(110deg, #ffffff 50%, #F6B400 50%);
 }
 
 /* Styling the header section */
@@ -40,9 +40,9 @@
   justify-content: center;
   margin-right: 35px;
   flex-wrap: nowrap;
-  margin-left: 5%;
   width: 100%;
   margin-top: 40px;
+  margin-left: 270px;
 }
 
 /* styling links*/
@@ -51,6 +51,7 @@
   list-style: none;
   font-size: 20px;
   display: inline;
+  margin-right: 70px;
 }
 
 
@@ -58,7 +59,7 @@
   text-decoration: none;
   color: black;
   font-weight: bold;
-  margin-right: 55px;
+  margin-right: px;
 
 }
 
@@ -127,11 +128,14 @@
   color: black;
   text-shadow: #F6B400;
 }
+.content-b{
+  margin-right: 200px
+  ;
+}
 
 .content-b img{
   width: auto;
   height: 90vh;
-  margin-left: 60px;
 }
 
 /*Page 2 styling*/
@@ -142,7 +146,7 @@
   background: #f2f2f2;
 }
 
-.column-1{
+.column-three-quater{
   width: 33.33%;
   float: left;
 }
@@ -183,7 +187,7 @@
 
 .card-image h1{
   font-size: 70px;
-  color: violet;
+  color: #F6B400;
 }
 
 
@@ -545,12 +549,12 @@ form{
 /* footer*/
 footer{
   margin: 0;
+
 }
 
 .copyrights{
   text-align: center;
-  margin-top: 30px;
-  opacity: 0.5;
+  margin-top: 20px;
 }
 
 .handles{
@@ -563,6 +567,13 @@ footer{
 }
 .handles span:hover{
   color: rgb(113, 113, 224);
+}
+.designer{
+  margin-top: 20px;
+}
+
+.designer-content p{
+  margin-left: 250px;
 }
 
 
