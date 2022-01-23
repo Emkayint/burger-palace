@@ -86,7 +86,7 @@
   height: 100vh;
 }
 .column{
-  width: 33.67%;
+  width: 33.33%;
   float: left;
 }
 .row::after{
@@ -190,7 +190,7 @@
 
 
 .container-3{
-  height: 100vh;
+
 }
 
 .header-1{
@@ -220,6 +220,12 @@
 
 }
 
+.menu-container{
+  margin-left: auto;
+  padding: 15px 10px;
+  margin-top: 30px;
+}
+
 .menu-card{
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3);
   max-width: 320px;
@@ -227,14 +233,17 @@
   padding: 4px;
   border-radius: 10px;
   margin-left: 20px;
+  position: absolute;
+  overflow: hidden;
 }
 
 .menu-card img{
 max-width: 100%;
+margin-top: 0px;
 }
 
 .menu-content{
-  padding: 10px 7px;
+  padding: 30px
 }
 
 .info{
@@ -242,25 +251,59 @@ max-width: 100%;
   margin-top: 20px;
 }
 
-.info p{
+.info h3{
   display: inline-block;
-  margin-left: 20px;
-  background-color: sandybrown;
+  margin-left: px;
+  background-color: whitesmoke;
   color: gray;
 }
 .info button{
   display: inline-block;
  margin-left: 180px;
- width: 50px;
- height: 30px;
  font-size: 30px;
+ color: gray;
+ background: honeydew;
+ border-radius: 5px;
+ padding: 2px;
+ border: none;
 
 }
 
+/* designing the ribbon */
 
+.ribbon{
+  width: 160px;
+  top: 0;
+  right: -20px;
+  position: absolute;
+}
 
+.ribbon span{
+  width: 225px;
+  background: orange;
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: -15px;
+  transform: rotate(45deg);
+  text-align: center;
+  color: whitesmoke;
+}
 
+.menu-card-1{
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3);
+  max-width: 320px;
+  text-align: center;
+  padding: 4px;
+  border-radius: 10px;
+  margin-left: 20px;
+  overflow: hidden;
+}
 
+.menu-card-1 img{
+  max-width: 100%;
+  margin-top: 0px;
+  }
 
 
 
