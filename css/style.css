@@ -16,19 +16,15 @@
 }
 
 /* Styling the header section */
-.header{
 
+
+/* Page one content */
+
+.container{
+  margin-left: 20px;
+ 
 }
 
-.header p{
-  margin-top: 22%;
-  font-weight: bold;
-  font-size: 40px;
-}
-
-.text-2{
-  color: #F6B400;
-}
 
 .nav{
     display: flex;
@@ -44,42 +40,36 @@
 .logo h1{
 
 }
-.nav-links li a{
-  text-decoration: none;
-  color: black;
-}
-
 .links{
     display: flex;
     justify-content: space-around;
 }
 
-.cart{
-  margin-right: 60px;
-  float: left;
-  margin-top: 30px;
-}
-.cart a{
-  color: black;
 .nav-links{
     align-items: center;
     display: flex;
     justify-content: space-around;
 }
 
-ul{
+ .nav-links ul{
     list-style: none;
 }
 
-/* Page one content */
-
-.container{
-  margin-left: 20px;
-  
 ul li{
     display: inline-block;
     margin-left: 5vw;
 }
+ .active a{
+  border-bottom: 4px solid yellow;
+}
+li a{
+  display: block;
+  padding-bottom: 20px;
+  color: black;
+  text-decoration: none;
+  font-size: 2vw;
+}
+
 .row{
  align-content: center;
 }
@@ -130,8 +120,8 @@ ul li{
 }
 
 .content-b img{
-  width: auto;
-  height: 90vh;
+  width: 25vw;
+  height:auto;
 }
 
 /*Page 2 styling*/
