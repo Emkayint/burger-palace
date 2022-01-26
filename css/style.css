@@ -606,25 +606,43 @@ footer{
   }
 }
 
+@media screen and (max-width: 600px) {
+  .header{
+      padding: 12px;
+      flex-direction: row;
+      justify-content: start;
+  }
+  .nav{
+      display: block;
+      justify-content: start;
+      
+  }    
+  .nav li{
+      margin: 0;
+      display: block;
+      justify-content: start;
+      
+  }
+  
+
+  .logo{
+      margin: 0vw;
+  }
+  .links{
+      margin-left: 5vw;
+      float: left;
+      margin-top: 20px;
+
+  }
 
 
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .nav-links{
+      display: block;
+      justify-content: none;
+  }
+  .badge{
+      float: left;
+  }
+}
