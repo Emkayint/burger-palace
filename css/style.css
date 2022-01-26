@@ -6,9 +6,9 @@
 }
 
 /* Section 1 is the base container of the first page*/
-.name p{
+/*.name p{
   font-family: 'Oleo Script Swash Caps', cursive;
-}
+}*/
 
 .section-1{
   margin-top: 0;
@@ -31,36 +31,27 @@
 }
 
 .nav{
-  display: flex;
-  justify-content: center;
-  margin-right: 35px;
-  flex-wrap: nowrap;
-  width: 100%;
-  margin-top: 40px;
-  margin-left: 270px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-/* styling links*/
-
-.nav li{
-  list-style: none;
-  font-size: 20px;
-  display: inline;
-  margin-right: 70px;
+.logo{
+    display: flex;
+    align-items: center;
 }
+.logo h1{
 
-
-.nav a{
+}
+.nav-links li a{
   text-decoration: none;
   color: black;
-  font-weight: bold;
-  margin-right: px;
-
 }
 
-.nav a:hover{
-  color: whitesmoke;
-  background-color: #f2f2f2;
+.links{
+    display: flex;
+    justify-content: space-around;
 }
 
 .cart{
@@ -70,12 +61,14 @@
 }
 .cart a{
   color: black;
+.nav-links{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
 }
 
-.cart .icon{
-  color: black;
-  font-size: 30px;
-  display: block;
+ul{
+    list-style: none;
 }
 
 /* Page one content */
@@ -83,8 +76,10 @@
 .container{
   margin-left: 20px;
   
+ul li{
+    display: inline-block;
+    margin-left: 5vw;
 }
-
 .row{
  align-content: center;
 }
