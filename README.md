@@ -1,26 +1,24 @@
-# Project Title
+# Burger Palace
 
-Burger Palace Website
+##### By Martin Kariuki
 
 ## Description
 
-This is a landing page for an online burger shop
+<p>This is a website that shows a landing page of a an online burger shop. It has a responsive design</p>
 
-## Getteing Started
+## Requirements
+* Either a computer, phone,tablet or an iPad
 
-* Version v-1.0.0
-* Any browser can work
+*An internet connection
 
-## Help
+## Technology Used
 
-* Make sure you have Internet connection
-* Use a well standard browser
+* HTML - Which was used to build the structure of the pages.
 
-## Authors
+* CSS - Which was used to add responsiveness and styling.
 
-Martin Kariuki
-Contact[Email](mkmartinoes@gmail.com)
+## Referense 
+* MDN documentation
 
-## Acknoeledgements
-
-TM's Moringa school
+## License
+[MIT License](LICENCE)
