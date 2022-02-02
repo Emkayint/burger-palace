@@ -9,7 +9,7 @@
 ## Requirements
 * Either a computer, phone,tablet or an iPad
 
-*An internet connection
+* An internet connection
 
 ## Technology Used
 
